@@ -11,7 +11,7 @@ export function SuccessModal({ isOpen, onClose, data }) {
 
   const handleCopyLink = async () => {
     try {
-      await copyToClipboard(data.referralLink || 'https://rofiozag.chat/waitlist?ref=vip');
+      await copyToClipboard(data.referralLink || 'https://rofiozagchat.online/waitlist?ref=vip');
       setCopied(true);
       toast.success('Referral link copied to clipboard!');
       setTimeout(() => setCopied(false), 2500);
@@ -21,7 +21,7 @@ export function SuccessModal({ isOpen, onClose, data }) {
   };
 
   const shareText = encodeURIComponent(`I just secured my spot on the @rofiozagchat waitlist (Spot #${formatNumber(data.position)})! Join me to unlock 0% fee creator tools and sub-10ms real-time chat:`);
-  const shareUrl = encodeURIComponent(data.referralLink || 'https://rofiozag.chat');
+  const shareUrl = encodeURIComponent(data.referralLink || 'https://rofiozagchat.online');
 
   return (
     <AnimatePresence>
