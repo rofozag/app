@@ -1,0 +1,15 @@
+{
+  "short_name": "Rofiozag",
+  "name": "Rofiozag Chat — Next-Gen Messaging Infrastructure",
+  "icons": [
+    {
+      "src": "rofiozag chat logo.png",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml+png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#030712",
+  "theme_color": "#3B82F6",
+  "display": "standalone"
+}
